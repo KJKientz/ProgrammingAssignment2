@@ -7,7 +7,7 @@
 # In the event that the matrix had already been inverted using the setInverse function contained in makeCacheMatrix, R will get the cached inverse instead of re-calculating, and it will print out "getting cached inverse of matrix"
 # The whole function could be written in one line, like this:
 # cacheSolve(makeCacheMatrix(matrix(c(7,8,10,12), nrow=2, ncol=2)))
-# It should be noted that if you run the function all in one line, then it doesn't actually get the cached version if one exists. I'm not sure why but I'm assuming it has something to do with the scoping.
+# It should be noted that if you run the function all in one line, then it doesn't actually get the cached version if one exists. I'm not sure why but I'm assuming it has something to do with R's lexical scoping.
 
 
 
